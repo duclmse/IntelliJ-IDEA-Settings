@@ -1,0 +1,71 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="mavenHome" value="C:\Tools\ideaIU-2020.2.3.win\plugins\maven\lib\maven3" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="duclm22" />
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+      <component name="ProjectViewState">
+        <option name="abbreviatePackageNames" value="true" />
+        <option name="compactDirectories" value="true" />
+        <option name="showLibraryContents" value="true" />
+        <option name="showModules" value="false" />
+        <option name="showVisibilityIcons" value="true" />
+        <option name="sortByType" value="true" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="D:/Projects/vi_VN.dic" />
+        <property name="project.structure.last.edited" value="Problems" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.30806607" />
+        <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+      </component>
+      <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="D:\Projects" CustomDictionaries="1" CustomDictionary0="D:\Projects\vi_VN.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.30806607" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.30806607" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.30806607" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
