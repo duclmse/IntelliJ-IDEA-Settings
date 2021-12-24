@@ -17,7 +17,6 @@
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping ext="agent" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="sync" type="Shell Script" />
       <mapping pattern="fm" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
@@ -25,6 +24,7 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
