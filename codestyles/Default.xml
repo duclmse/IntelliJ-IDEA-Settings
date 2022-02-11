@@ -29,6 +29,7 @@
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="INDENT_CHAINED_CALLS" value="false" />
   </JSCodeStyleSettings>
   <JSON>
     <option name="OBJECT_WRAPPING" value="5" />
@@ -196,6 +197,11 @@
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
