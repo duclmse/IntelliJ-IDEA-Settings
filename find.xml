@@ -1,5 +1,13 @@
 <application>
   <component name="FindSettings">
+    <option name="customScope" value="Project 'filebrowser'" />
+    <option name="defaultScopeName" value="Project 'filebrowser'" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'filebrowser'" />
+    <mask>*.zul</mask>
+    <mask>*.gradle.kts</mask>
+    <mask>*.gradle</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>

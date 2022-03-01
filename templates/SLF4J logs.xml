@@ -1,0 +1,37 @@
+<templateSet group="SLF4J logs">
+  <template name="li" value="log.info(&quot;$LOG$&quot;$BIND$);" description="log.info();" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BIND" expression="" defaultValue=", " alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ld" value="log.debug(&quot;$LOG$&quot;$BIND$);" description="log.debug();" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BIND" expression="" defaultValue=", " alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="le" value="log.error(&quot;$LOG$&quot;$BIND$);" description="log.error();" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BIND" expression="" defaultValue=", " alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lt" value="log.trace(&quot;$LOG$&quot;$BIND$);" description="log.trace();" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BIND" expression="" defaultValue=", " alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lw" value="log.warn(&quot;$LOG$&quot;$BIND$);" description="log.warn();" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BIND" expression="" defaultValue=", " alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
