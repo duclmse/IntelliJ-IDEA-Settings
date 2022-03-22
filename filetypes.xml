@@ -5,6 +5,7 @@
       <mapping pattern="main" type="AUTO_DETECTED" />
       <mapping pattern="up" type="AUTO_DETECTED" />
       <mapping pattern="test" type="AUTO_DETECTED" />
+      <mapping pattern="scratch" type="AUTO_DETECTED" />
       <mapping pattern="stop" type="AUTO_DETECTED" />
       <mapping pattern="rs" type="AUTO_DETECTED" />
       <mapping pattern="loadj" type="AUTO_DETECTED" />
