@@ -34,7 +34,7 @@
   </JSCodeStyleSettings>
   <JSON>
     <option name="OBJECT_WRAPPING" value="5" />
-    <option name="ARRAY_WRAPPING" value="1" />
+    <option name="ARRAY_WRAPPING" value="0" />
   </JSON>
   <JavaCodeStyleSettings>
     <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
@@ -187,6 +187,7 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_LONG_LINES" value="true" />
     <indentOptions>
