@@ -8,6 +8,7 @@
       <mapping pattern="stop" type="AUTO_DETECTED" />
       <mapping pattern="rs" type="AUTO_DETECTED" />
       <mapping pattern="loadj" type="AUTO_DETECTED" />
+      <mapping pattern="bt3" type="Go" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
