@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="378" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="把一个整形该为" />
       <item value="字符串==&gt;BCD字节数组" />
       <item value="低四位" />
       <item value="高四位" />
@@ -15,8 +16,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="8" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="8" />
       </map>
     </option>
   </component>
