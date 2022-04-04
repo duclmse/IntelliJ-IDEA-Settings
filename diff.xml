@@ -13,6 +13,11 @@
           <option name="USE_SOFT_WRAPS" value="true" />
         </PlaceSettings>
       </entry>
+      <entry key="Merge">
+        <PlaceSettings>
+          <option name="SHOW_LINE_NUMBERS" value="false" />
+        </PlaceSettings>
+      </entry>
     </option>
   </component>
 </application>
