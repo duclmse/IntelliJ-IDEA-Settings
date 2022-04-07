@@ -8,7 +8,7 @@
       <mapping pattern="stop" type="AUTO_DETECTED" />
       <mapping pattern="rs" type="AUTO_DETECTED" />
       <mapping pattern="loadj" type="AUTO_DETECTED" />
-      <mapping pattern="bt3" type="Go" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -20,13 +20,13 @@
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping pattern="sync" type="Shell Script" />
       <mapping pattern="fm" type="Shell Script" />
-      <mapping pattern="d" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="qrc" approved="true" type="XML" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
