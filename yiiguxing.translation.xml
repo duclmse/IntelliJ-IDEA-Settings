@@ -1,0 +1,35 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogCollapseDictViewer" value="false" />
+    <option name="newTranslationDialogHeight" value="176" />
+    <option name="newTranslationDialogWidth" value="592" />
+    <option name="newTranslationDialogX" value="1287" />
+    <option name="newTranslationDialogY" value="267" />
+    <histories>
+      <item value="消息" />
+      <item value="translation&#10;" />
+      <item value="translation" />
+      <item value="trans" />
+      <item value="tránm" />
+      <item value="trán" />
+      <item value="把一个整形该为" />
+      <item value="字符串==&gt;BCD字节数组" />
+      <item value="低四位" />
+      <item value="高四位" />
+      <item value="十进制字符串" />
+      <item value="字节数组" />
+      <item value="鉴权码暂时写死" />
+      <item value="终端注册" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="8" />
+        <entry key="VIETNAMESE" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1648792671144" />
+  </component>
+</application>

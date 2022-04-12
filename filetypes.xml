@@ -5,16 +5,15 @@
       <mapping pattern="main" type="AUTO_DETECTED" />
       <mapping pattern="up" type="AUTO_DETECTED" />
       <mapping pattern="test" type="AUTO_DETECTED" />
-      <mapping pattern="scratch" type="AUTO_DETECTED" />
       <mapping pattern="stop" type="AUTO_DETECTED" />
       <mapping pattern="rs" type="AUTO_DETECTED" />
       <mapping pattern="loadj" type="AUTO_DETECTED" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="logs" type="PLAIN_TEXT" />
       <mapping pattern="log" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="asd" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping ext="agent" type="PLAIN_TEXT" />
