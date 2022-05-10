@@ -19,8 +19,6 @@
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping pattern="sync" type="Shell Script" />
       <mapping pattern="fm" type="Shell Script" />
-      <removed_mapping pattern=".analysis_options" type="YAML" />
-      <removed_mapping pattern="pubspec.lock" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
@@ -28,7 +26,9 @@
       <removed_mapping ext="qrc" approved="true" type="XML" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping pattern="pubspec.lock" type="YAML" />
       <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
