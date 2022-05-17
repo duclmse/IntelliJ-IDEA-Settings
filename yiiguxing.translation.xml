@@ -6,6 +6,8 @@
     <option name="newTranslationDialogX" value="1287" />
     <option name="newTranslationDialogY" value="267" />
     <histories>
+      <item value="Endpoints are a primary abstraction in go-kit. An endpoint represents a single RPC (method in our service interface)" />
+      <item value="For each method, we define request and response structs" />
       <item value="消息" />
       <item value="translation&#10;" />
       <item value="translation" />
@@ -24,12 +26,12 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="9" />
-        <entry key="ENGLISH" value="8" />
-        <entry key="VIETNAMESE" value="1" />
+        <entry key="ENGLISH" value="11" />
+        <entry key="VIETNAMESE" value="3" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1648792671144" />
+    <option name="lastTrimTime" value="1649834539623" />
   </component>
 </application>

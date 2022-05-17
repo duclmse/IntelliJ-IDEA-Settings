@@ -2,26 +2,9 @@
   <component name="SettingsSyncPlugins">
     <option name="plugins">
       <map>
-        <entry key="Dart">
+        <entry key="cn.yiiguxing.plugin.translate">
           <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.xml" />
-                </set>
-              </option>
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="String Manipulation">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.platform" />
-                </set>
-              </option>
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="intellij.prettierJS">
@@ -31,23 +14,6 @@
                 <set>
                   <option value="JavaScript" />
                   <option value="com.intellij.modules.platform" />
-                </set>
-              </option>
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="io.flutter">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="Dart" />
-                  <option value="Git4Idea" />
-                  <option value="com.intellij.modules.coverage" />
-                  <option value="com.intellij.modules.lang" />
-                  <option value="com.intellij.modules.platform" />
-                  <option value="com.intellij.modules.xdebugger" />
-                  <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
             </PluginData>
@@ -76,32 +42,14 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="org.intellij.scala">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.java" />
-                </set>
-              </option>
-            </PluginData>
-          </value>
-        </entry>
         <entry key="org.jetbrains.plugins.go">
           <value>
             <PluginData />
           </value>
         </entry>
-        <entry key="org.rust.lang">
+        <entry key="org.jetbrains.plugins.vue">
           <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.lang" />
-                  <option value="org.toml.lang" />
-                </set>
-              </option>
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
       </map>

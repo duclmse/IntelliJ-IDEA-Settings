@@ -1,7 +1,6 @@
 <application>
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
-    <option name="DISABLE_MNEMONICS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="15" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="MAX_LOOKUP_WIDTH2" value="751" />
@@ -10,7 +9,6 @@
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_DIRECTORY_FOR_NON_UNIQUE_FILENAMES" value="false" />
-    <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
