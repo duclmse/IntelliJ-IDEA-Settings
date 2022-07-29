@@ -1,0 +1,29 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL create table</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *CREATE +((TEMP(ORARY)?|(GLOBAL +TEMPORARY)) +)?TABLE .*\\(.*")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL delete</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *DELETE +(\\* +)?FROM .*")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL insert</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *INSERT +((OR +)?IGNORE +)?INTO .*")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL select</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *SELECT .*FROM .*")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL update</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *UPDATE .*SET .*")]]></place>
+    </injection>
+  </component>
+</application>
