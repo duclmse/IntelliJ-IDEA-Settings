@@ -10,6 +10,15 @@
     <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="2" />
     <option name="USE_GENERIC_STYLE" value="true" />
   </DerbyCodeStyleSettings>
+  <GoCodeStyleSettings>
+    <option name="ADD_PARENTHESES_FOR_SINGLE_IMPORT" value="true" />
+    <option name="REMOVE_REDUNDANT_IMPORT_ALIASES" value="true" />
+    <option name="MOVE_ALL_IMPORTS_IN_ONE_DECLARATION" value="true" />
+    <option name="MOVE_ALL_STDLIB_IMPORTS_IN_ONE_GROUP" value="true" />
+    <option name="GROUP_STDLIB_IMPORTS" value="true" />
+    <option name="CREATE_LOCAL_GROUP" value="true" />
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+  </GoCodeStyleSettings>
   <H2CodeStyleSettings version="6">
     <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="2" />
     <option name="USE_GENERIC_STYLE" value="true" />
