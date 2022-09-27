@@ -3,5 +3,6 @@
     <local-interpreter path="/snap/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
+    <local-interpreter path="C:/Program Files/nodejs/node.exe" excluded="true" />
   </component>
 </application>
