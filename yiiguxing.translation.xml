@@ -1,0 +1,43 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogCollapseDictViewer" value="false" />
+    <option name="newTranslationDialogHeight" value="176" />
+    <option name="newTranslationDialogWidth" value="590" />
+    <option name="newTranslationDialogX" value="1302" />
+    <option name="newTranslationDialogY" value="89" />
+    <histories>
+      <item value="字节数据转换为针对于808消息结构的实体类" />
+      <item value="prohibitive" />
+      <item value="Endpoints are a primary abstraction in go-kit. An endpoint represents a single RPC (method in our service interface)" />
+      <item value="For each method, we define request and response structs" />
+      <item value="消息" />
+      <item value="translation&#10;" />
+      <item value="translation" />
+      <item value="trans" />
+      <item value="tránm" />
+      <item value="trán" />
+      <item value="把一个整形该为" />
+      <item value="字符串==&gt;BCD字节数组" />
+      <item value="低四位" />
+      <item value="高四位" />
+      <item value="十进制字符串" />
+      <item value="字节数组" />
+      <item value="鉴权码暂时写死" />
+      <item value="终端注册" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="12" />
+        <entry key="ENGLISH" value="12" />
+        <entry key="VIETNAMESE" value="4" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1658219035214" />
+  </component>
+  <component name="Settings">
+    <option name="autoReplace" value="true" />
+    <option name="showReplacementActionInContextMenu" value="true" />
+  </component>
+</application>
