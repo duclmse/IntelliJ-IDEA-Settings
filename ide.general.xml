@@ -2,7 +2,7 @@
   <component name="GeneralSettings">
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
-    <option name="defaultProjectDirectory" value="~/projects" />
+    <option name="defaultProjectDirectory" value="D:\projects" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="reopenLastProject" value="false" />
     <option name="showTipsOnStartup" value="false" />
