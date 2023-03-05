@@ -3,6 +3,7 @@
     <local-interpreter path="/snap/bin/node">
       <version-cache version="18.4.0" last-modified="1652243904000" />
     </local-interpreter>
+    <local-interpreter path="C:/ProgramData/chectl/chectl/bin/node.exe" excluded="true" />
     <local-interpreter path="C:/Program Files/nodejs/node.exe" excluded="true" />
   </component>
 </application>
