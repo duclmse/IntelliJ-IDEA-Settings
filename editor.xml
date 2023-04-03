@@ -74,10 +74,11 @@
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
       <set>
+        <option value="JAVA.chain.hints" />
         <option value="JAVA.java.implicit.types" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value=".problems" />
+    <option name="lastViewedProviderKeyId" value="JAVA.parameter.hints.old" />
   </component>
   <component name="JSCodeFoldingSettings">
     <option name="collapseOneLineFunctions" value="true" />
