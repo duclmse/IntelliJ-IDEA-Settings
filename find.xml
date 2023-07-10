@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'cct-lhubdt-workbench-svc'" />
-    <option name="defaultScopeName" value="Project 'cct-lhubdt-workbench-svc'" />
+    <option name="customScope" value="Project 'hello-mvn'" />
+    <option name="defaultScopeName" value="Project 'hello-mvn'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'cct-lhubdt-workbench-svc'" />
+    <option name="SEARCH_SCOPE" value="Project 'hello-mvn'" />
     <mask>*.zul</mask>
     <mask>*.gradle.kts</mask>
     <mask>*.gradle</mask>
