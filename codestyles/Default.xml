@@ -1,6 +1,5 @@
 <code_scheme name="Default" version="173">
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
-  <option name="ENABLE_SECOND_REFORMAT" value="true" />
   <option name="SOFT_MARGINS" value="120" />
   <DB2CodeStyleSettings version="6">
     <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="2" />
