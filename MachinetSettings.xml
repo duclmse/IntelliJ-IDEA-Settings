@@ -1,0 +1,52 @@
+<application>
+  <component name="com.github.evgenys91.machinet.common.feedback.FeedbackState">
+    <option name="feedbackDTOByID">
+      <map>
+        <entry key="CrudServiceTest.java_createWhenEntityWithExistingIdIsProvidedThenThrowServiceException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="CrudServiceTest.java" />
+              <option name="myMethodName" value="createWhenEntityWithExistingIdIsProvidedThenThrowServiceException" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw ServiceException when entity with existing ID is provided&quot;)&#10;    void createWhenEntityWithExistingIdIsProvidedThenThrowServiceException() {&#10;        when(repository.existsById(student.getId())).thenReturn(true);&#10;&#10;        assertThrows(ServiceException.class, () -&gt; service.create(student));&#10;&#10;        verify(repository, never()).save(student);&#10;    }" />
+              <option name="myGeneratedDate" value="1691772325876" />
+              <option name="myRequestId" value="6321f2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="CrudServiceTest.java_createWhenNullEntityIsProvidedThenThrowServiceException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="CrudServiceTest.java" />
+              <option name="myMethodName" value="createWhenNullEntityIsProvidedThenThrowServiceException" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw ServiceException when null entity is provided&quot;)&#10;    void createWhenNullEntityIsProvidedThenThrowServiceException() {&#10;        assertThrows(ServiceException.class, () -&gt; {&#10;            service.create(null);&#10;        });&#10;    }" />
+              <option name="myGeneratedDate" value="1691772325876" />
+              <option name="myRequestId" value="6321f2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="CrudServiceTest.java_createWhenValidEntityIsProvided">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="CrudServiceTest.java" />
+              <option name="myMethodName" value="createWhenValidEntityIsProvided" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should create and return the entity when valid entity is provided&quot;)&#10;    void createWhenValidEntityIsProvided() {&#10;        when(repository.save(student)).thenReturn(student);&#10;&#10;        Student createdStudent = service.create(student);&#10;&#10;        assertNotNull(createdStudent);&#10;        assertEquals(student.getId(), createdStudent.getId());&#10;        assertEquals(student.getName(), createdStudent.getName());&#10;&#10;        verify(repository, times(1)).save(student);&#10;    }" />
+              <option name="myGeneratedDate" value="1691772325876" />
+              <option name="myRequestId" value="6321f2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="CrudServiceTest.java_setUp">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="CrudServiceTest.java" />
+              <option name="myMethodName" value="setUp" />
+              <option name="myCode" value="@BeforeEach&#10;    void setUp() {&#10;        student = new Student();&#10;        student.setId(1L);&#10;        student.setName(&quot;John&quot;);&#10;    }" />
+              <option name="myGeneratedDate" value="1691772325876" />
+              <option name="myRequestId" value="6321f2" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
