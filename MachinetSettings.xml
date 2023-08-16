@@ -2,6 +2,61 @@
   <component name="com.github.evgenys91.machinet.common.feedback.FeedbackState">
     <option name="feedbackDTOByID">
       <map>
+        <entry key="BlockDeserializerTest.java_comparisonWhenNameIsNotNull">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="BlockDeserializerTest.java" />
+              <option name="myMethodName" value="comparisonWhenNameIsNotNull" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return expression when name is not null&quot;)&#10;    void comparisonWhenNameIsNotNull() {&#10;        JsonParser parser = mock(JsonParser.class);&#10;        DeserializationContext context = mock(DeserializationContext.class);&#10;        String name = &quot;age&quot;;&#10;&#10;        Block result = BlockDeserializer.parseComparison(parser, name);&#10;&#10;        assertThat(result).isInstanceOf(Comparison.class);&#10;        assertEquals(name, ((Comparison) result).getField());&#10;    }" />
+              <option name="myGeneratedDate" value="1692200169305" />
+              <option name="myRequestId" value="a32346" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="BlockDeserializerTest.java_comparisonWhenNameIsNullThenThrowJsonParseException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="BlockDeserializerTest.java" />
+              <option name="myMethodName" value="comparisonWhenNameIsNullThenThrowJsonParseException" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw JsonParseException when name is null&quot;)&#10;    void comparisonWhenNameIsNullThenThrowJsonParseException() {&#10;        JsonParser p = mock(JsonParser.class);&#10;        String name = null;&#10;&#10;        assertThrows(JsonParseException.class, () -&gt; {&#10;            blockDeserializer.comparison(p);&#10;        });&#10;    }" />
+              <option name="myGeneratedDate" value="1692200169305" />
+              <option name="myRequestId" value="a32346" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="BlockDeserializerTest.java_deserializeWhenTokenIsNeitherValueStringNorStartObjectThenThrowException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="BlockDeserializerTest.java" />
+              <option name="myMethodName" value="deserializeWhenTokenIsNeitherValueStringNorStartObjectThenThrowException" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should throw RuntimeException when token is neither VALUE_STRING nor START_OBJECT&quot;)&#10;    void deserializeWhenTokenIsNeitherValueStringNorStartObjectThenThrowException() {&#10;        JsonParser jsonParser = mock(JsonParser.class);&#10;        DeserializationContext deserializationContext = mock(DeserializationContext.class);&#10;&#10;        when(jsonParser.getCurrentToken()).thenReturn(JsonToken.VALUE_NUMBER);&#10;&#10;        assertThrows(RuntimeException.class, () -&gt; blockDeserializer.deserialize(jsonParser, deserializationContext));&#10;&#10;        verify(jsonParser, times(1)).getCurrentToken();&#10;    }" />
+              <option name="myGeneratedDate" value="1692200250586" />
+              <option name="myRequestId" value="4dd9e0" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="BlockDeserializerTest.java_deserializeWhenTokenIsStartObject">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="BlockDeserializerTest.java" />
+              <option name="myMethodName" value="deserializeWhenTokenIsStartObject" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return comparison block when token is START_OBJECT&quot;)&#10;    void deserializeWhenTokenIsStartObject() {&#10;        JsonParser jsonParser = mock(JsonParser.class);&#10;        DeserializationContext deserializationContext = mock(DeserializationContext.class);&#10;        Block expectedBlock = mock(Comparison.class);&#10;&#10;        when(jsonParser.getCurrentToken()).thenReturn(START_OBJECT);&#10;        when(blockDeserializer.comparison(jsonParser)).thenReturn(expectedBlock);&#10;&#10;        Block actualBlock = blockDeserializer.deserialize(jsonParser, deserializationContext);&#10;&#10;        assertEquals(expectedBlock, actualBlock);&#10;        verify(blockDeserializer, times(1)).comparison(jsonParser);&#10;    }" />
+              <option name="myGeneratedDate" value="1692200250586" />
+              <option name="myRequestId" value="4dd9e0" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="BlockDeserializerTest.java_deserializeWhenTokenIsValueString">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="BlockDeserializerTest.java" />
+              <option name="myMethodName" value="deserializeWhenTokenIsValueString" />
+              <option name="myCode" value="@Test&#10;    @DisplayName(&quot;Should return simple block when token is VALUE_STRING&quot;)&#10;    void deserializeWhenTokenIsValueString() {&#10;        JsonParser jsonParser = mock(JsonParser.class);&#10;        DeserializationContext deserializationContext = mock(DeserializationContext.class);&#10;        Block expectedBlock = OpenParenthesis.INSTANCE;&#10;&#10;        when(jsonParser.getCurrentToken()).thenReturn(VALUE_STRING);&#10;        when(jsonParser.getValueAsString()).thenReturn(&quot;OPEN&quot;);&#10;&#10;        Block actualBlock = blockDeserializer.deserialize(jsonParser, deserializationContext);&#10;&#10;        assertThat(actualBlock).isEqualTo(expectedBlock);&#10;        verify(jsonParser, times(1)).getCurrentToken();&#10;        verify(jsonParser, times(1)).getValueAsString();&#10;    }" />
+              <option name="myGeneratedDate" value="1692200250586" />
+              <option name="myRequestId" value="4dd9e0" />
+            </FeedbackDTO>
+          </value>
+        </entry>
         <entry key="CrudServiceTest.java_createWhenEntityWithExistingIdIsProvidedThenThrowServiceException">
           <value>
             <FeedbackDTO>
